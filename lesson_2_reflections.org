@@ -1,0 +1,5 @@
+** What happens when you initialize a repository? 
+1. The git init command creates a .git directory in the same folder. The .git contains a number of directories and indexes for managing the git repository.
+2.
+** Why do you need to do it?
+1. It is done as an inintial setup of the repository in preparation to adding files.
