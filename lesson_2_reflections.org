@@ -8,4 +8,19 @@
 2. It allows you to select some (or all of the files in the directory) to be included in the commit.
 3. The files included in the staging area may not all be modified in the commit.
 4. The staging area can be setup and multiple commits may be performed on it that are relevant to a single functional addition.
-5. Additional files can be added to a staging area. 
+5. Additional files can be added to a staging area.
+** How can you use the staging area to make sure you have one commit per logical change?
+1. Ensure that only files connected with the functional change (or fix) are added to the staging area before commiting.
+2. Relect on the statement used in the commit statement, ensure that it only deals with one issue and that all files involving changes relating to that commit are staged.
+** What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1. If you want to do something that is either going to create a variant or test an idea on the code then it is sensible to test it on a branch.
+2. The branch can always be merged back at a later stage into the master.
+3. Such an approach ensures that normal maintenance can continue on the master.
+
+** How do the diagrams help you visualize the branch structure?
+1. You can see which commits are connected and how they've branched.
+2. They help you see the commits that need to be taken account of in the event of having to merge.
+
+
+
+
