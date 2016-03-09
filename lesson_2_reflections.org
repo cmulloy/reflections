@@ -3,3 +3,9 @@
 2.
 ** Why do you need to do it?
 1. It is done as an inintial setup of the repository in preparation to adding files.
+** How is the staging area different from the working directory and the repository? What value do you think it offers?
+1. Staging area allows you to group all the files that should be included in a single commit.
+2. It allows you to select some (or all of the files in the directory) to be included in the commit.
+3. The files included in the staging area may not all be modified in the commit.
+4. The staging area can be setup and multiple commits may be performed on it that are relevant to a single functional addition.
+5. Additional files can be added to a staging area. 
