@@ -1,0 +1,7 @@
+1. It's often very difficult to spot subtle differences between two rows of text. The computer is much better suited to the task!
+2. The diff utility in Linux is good in that it still shows only the lines that are different together with three lines before and 3 lines after the lines that are different, thus showing the context of each of the differences.
+3. The diff function allows one to quickly identify the differences and exclude items that are the same.
+4. The diff application only works with text files.
+5. The location of each of the changes is identified in the diff output which is preceeded by a '@@' and the line number in the file.
+6. The order that the files are listed when invoking the diff function is important. If the old file is given first, then the '-' indicates the lines that were removed from the old file and '+' indicates the text that was added in the new file.
+7. The fact that the entire lines are shown in the old and the new file helps show the differences in context within the line.
