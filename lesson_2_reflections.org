@@ -21,6 +21,20 @@
 1. You can see which commits are connected and how they've branched.
 2. They help you see the commits that need to be taken account of in the event of having to merge.
 
+** What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+1. Merging is the joining together, usually the master with a previous branch off it. The intention is to incorporate the additional functionality that was done in the branch back onto the master branch.
+2. The merge process will often require the interleaving of various lines of code that were added to the branch back into the, usually but not always, master branch. The final result will include both previously individual functionalities in each branch. Thus the diagram shows the two separate branches coming together into one commit.
+
+* Scratch area
+#+BEGIN_SRC sh
+git log --graph --oneline master coins
+#+END_SRC
 
 
+** Making the coin solid and yellow
+#+BEGIN_SRC js
++  this.color    = yellow';
++  this.color = 'navy';
++  this.solid = true;
 
+#+END_SRC
