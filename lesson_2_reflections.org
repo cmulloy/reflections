@@ -25,6 +25,12 @@
 1. Merging is the joining together, usually the master with a previous branch off it. The intention is to incorporate the additional functionality that was done in the branch back onto the master branch.
 2. The merge process will often require the interleaving of various lines of code that were added to the branch back into the, usually but not always, master branch. The final result will include both previously individual functionalities in each branch. Thus the diagram shows the two separate branches coming together into one commit.
 
+** What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+*** Pros
+1. There are cases where it is perfectly feasable for merges to be made automatically where the two commits do not conflict. It makes sense to allow the software to do this as this saves the possibility of human error.
+2. Where there are lines that both commits have altered then the merge must be resolved manually. 
+
 * Scratch area
 #+BEGIN_SRC sh
 git log --graph --oneline master coins
