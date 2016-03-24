@@ -43,6 +43,9 @@ You may forget to make a committ upon completion of a logical piece of work.
 4. I want to be able to control all org files in work in git as well as saving to the central svn repository.
 
 
+
+
+
 * Quiz
 Rebuild the missing file from the git diff output:
 ** Contents of original file.txt
@@ -3517,3 +3520,15 @@ Author: Rishabh <rishabh.pugalia@gmail.com>
 Date:   Sat Dec 1 10:17:29 2012 +0530
 
     removing unnecessary files
+
+* Fixing asteroids
+
+
+     if (KEY_STATUS.space) {
+       if (this.delayBeforeBullet <= 0) {
+-        this.delayBeforeBullet = 10;
+         for (var i = 0; i < this.bullets.length; i++) {
+           if (!this.bullets[i].visible) {
+             SFX.laser();
+
+
