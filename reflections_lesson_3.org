@@ -4,3 +4,20 @@
 ** Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 1. To ensure that changes covered a single feature change to the code.
 2. The coder is the only person who can decide what changes in one, or more files, need to be done to deliver the feature change.
+** Describe the differences between forks, clones, and branches. When would you use one instead of another?
+1. Forks are a specific type of clone which makes a git repository copy that includes all commits from someone elses git repository into your git hub account.
+2. A fork  allows you to add and maintain changes that you make to this repository on your  git hub account that are independent of the original repository you forked.
+3. Clones are a more general case of forks whereby a clone replicates the git repository on a git hub account onto a computer. 
+4. Clones can fully replicate  a git repository that exists in one computer to another location in the same or  different computer.
+5. Branches are where a new feature is added to an existing git repository while retaining the original code as a separate version.
+6. It's possible to move from branch to branch for testing or coding purposes.
+*** Branches are used to work on new features build onto the exiting head
+- Code can have many branches available and in varying stages of progress. 
+- Branches can be either used to develop different optional varients of the code.
+- Branches can be used to experiment with new features and then merge them into another branch.
+*** Clones are used to copy a git repository
+- Clones are used in order to copy a git repository to another computer in order to work on it.
+*** Forks are git repository clones from one git hub repository to another
+- The fork acknowledges the work done by the original author of the git repository that was forked.
+
+
