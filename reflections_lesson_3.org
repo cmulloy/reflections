@@ -19,5 +19,7 @@
 - Clones are used in order to copy a git repository to another computer in order to work on it.
 *** Forks are git repository clones from one git hub repository to another
 - The fork acknowledges the work done by the original author of the git repository that was forked.
-
+** What is the benefit of having a copy of the last known state of the remote stored locally?
+1. You can continue to work on the code even without internet access to the remote.
+2. You can sync and update your own copy of the git repository to the remote.
 
