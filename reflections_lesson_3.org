@@ -24,6 +24,10 @@
 2. You can sync and update your own copy of the git repository to the remote.
 
 ** How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-1. The method of collaboration that git and github provides is excellent as it provides a standard way that suggestions can be proposed and reviewed without impacting the master branch of the code.
-2. It's a lot more flexible than subversion and it allows the easy experimentation with new ideas. The way that code change suggestions can be made using GitHub is not easily realisable using Subversion.
+
+
+1. I'd have to use individual files and check out the diffs in each file for the changes. There might be document of the list of changes made to the files how ever it would be more difficult to review what had changed.
+2. That's that way I've worked in the past and it's generally quite difficult to keep track of all the interactions and updates that are inevitable for multiple inputs on the collaborative project.
+3. The method of collaboration that git and github provides is excellent as it provides a standard way that suggestions can be proposed and reviewed without impacting the master branch of the code.
+4. It's a lot more flexible than subversion and it allows the easy experimentation with new ideas. The way that code change suggestions can be made using GitHub is not easily realisable using Subversion.
 
